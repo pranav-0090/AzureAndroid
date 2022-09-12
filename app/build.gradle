@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+  compileSdkVersion 29
+  buildToolsVersion '29.0.2'
 
   defaultConfig {
     applicationId 'com.sqisland.android.hello'
-    minSdkVersion rootProject.ext.minSdkVersion
-    targetSdkVersion rootProject.ext.targetSdkVersion
+    minSdkVersion 1
+    targetSdkVersion 29
     versionCode 1
     versionName '1.0.0'
   }
