@@ -4,7 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/android
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'default'
+  vmImage: 'win-agent'
 
 steps:
 - task: Gradle@2
